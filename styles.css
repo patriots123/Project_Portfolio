@@ -2,6 +2,23 @@ body {
   font-family: sans-serif;
 }
 
+.eat-drink-do-block {
+  background: url(https://media.timeout.com/images/105287032/image.jpg)
+    no-repeat center center fixed;
+  /* opacity: 0.5; */
+}
+
+.payment-tracker-block {
+  background: url(https://thumbor.forbes.com/thumbor/1280x868/https%3A%2F%2Fblogs-images.forbes.com%2Fofx%2Ffiles%2F2018%2F09%2FOFX3-iStock-492595743-1200x800.jpg)
+    no-repeat center center fixed;
+  background-size: auto;
+}
+
+.golf-score-tracker-block {
+  background: url(https://www.golfbalfour.com/image/w2000-h1200-c20:12/files/58c1b4f2-75e0-4794-b084-1212d8b0b5a5.jpg)
+    no-repeat center center fixed;
+}
+
 body,
 h1,
 h2,
