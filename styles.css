@@ -24,6 +24,11 @@ body {
     no-repeat center center fixed;
 }
 
+.contact-info .email,.github,.linkdin {
+  display: inline-block;
+  margin: 20px;
+}
+
 body,
 h1,
 h2,
