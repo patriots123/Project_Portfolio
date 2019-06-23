@@ -120,11 +120,6 @@ section {
   /* opacity: 0.5; */
 }
 
-.eat-drink-do-title {
-  background: black !important;
-  color: white !important;
-}
-
 .payment-tracker-block {
   background: url(https://thumbor.forbes.com/thumbor/1280x868/https%3A%2F%2Fblogs-images.forbes.com%2Fofx%2Ffiles%2F2018%2F09%2FOFX3-iStock-492595743-1200x800.jpg)
     no-repeat center center fixed;
@@ -141,6 +136,11 @@ section {
   margin: 20px;
 }
 
+.github-link, .try-link {
+    text-decoration: none;
+    color: black;
+}
+
 .sidebar {
   height: 100%;
   width: 200px;
@@ -148,6 +148,66 @@ section {
   position: fixed !important;
   z-index: 1;
   overflow: auto;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
 }
 
 .content,
@@ -551,6 +611,32 @@ section {
     }
     .sidebar.collapse {
       display: block !important;
+    }
+}
+
+.main-content {
+    margin-top: 83px;
+}
+
+.navbar {
+    margin-top: 84px;
+}
+
+@media (min-width: 993px) {
+    .navbar {
+        display: none !important;
+    }
+}
+
+@media (max-width: 993px) {
+    .main-content {
+        margin-top: 136px;
+    }
+}
+
+@media (max-width: 340px) {
+    .navbar a {
+        font-size: 12px;
     }
 }
 

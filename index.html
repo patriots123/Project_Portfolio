@@ -23,32 +23,48 @@
       <h3 class="padding-64 center">
         <b>WILL<br />SHAUGHNESSY</b>
       </h3>
-      <a
-        href="javascript:void(0)"
-        onclick="close()"
-        class="bar-item button padding hide-large"
-        >CLOSE</a
-      >
-      <a href="#about" onclick="close()" class="bar-item button">ABOUT ME</a>
-      <a href="#projects" onclick="close()" class="bar-item button">PROJECTS</a>
-      <a href="#contact" onclick="close()" class="bar-item button">CONTACT</a>
+      
+      <a href="#about" class="bar-item button">ABOUT ME</a>
+      <a href="#projects" class="bar-item button">PROJECTS</a>
+      <a href="#contact" class="bar-item button">CONTACT</a>
     </nav>
+
+    <!-- <div class="navbar">
+      <a href="#home">Home</a>
+      <a href="#news">News</a>
+      <div class="dropdown">
+        <button class="dropbtn">Dropdown 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+          <a href="#">Link 1</a>
+          <a href="#">Link 2</a>
+          <a href="#">Link 3</a>
+        </div>
+      </div> 
+    </div> -->
+
+    <div class="navbar top">
+      <a href="#about" class="bar-item button">ABOUT ME</a>
+      <a href="#projects" class="bar-item button">PROJECTS</a>
+      <a href="#contact" class="bar-item button">CONTACT</a>
+    </div>
 
     <!-- Top menu on small screens -->
     <header class="container top hide-large white xlarge padding-16">
       <span class="left padding">WILL SHAUGHNESSY</span>
-      <a href="javascript:void(0)" class="right button white" onclick="open()"
+      <!-- <a href="javascript:void(0)" class="right button white" onclick="open()"
         >☰</a
-      >
+      > -->
     </header>
     <!-- !PAGE CONTENT! -->
     <div class="main" style="margin-left:300px">
       <!-- Push down content on small screens -->
-      <div class="hide-large" style="margin-top:83px"></div>
+      <div class="hide-large main-content"></div>
 
       <!-- About section -->
       <div
-        class="container dark-grey center text-light-grey padding-32"
+        class="container dark-grey center text-light-grey padding-32 anchor"
         id="about"
       >
         <h4><b>About Me</b></h4>
@@ -75,6 +91,7 @@
           <h4 class="padding-16">Technical Skills</h4>
           <hr class="opacity" /> -->
         </div>
+      </div>
         <div
           class="container dark-grey center text-light-grey padding-32"
           id="projects"
@@ -84,7 +101,7 @@
           <div class="content justify row-padding" style="max-width:600px">
             <div class="margin-bottom eat-drink-do-block">
               <ul class="ul white center opacity hover-opacity-off">
-                <li class="black xlarge padding-32 eat-drink-do-title">Eat, Drink, Do</li>
+                <li class="black xlarge padding-24">Eat, Drink, Do</li>
                 <li class="padding-16">
                   <p>
                     Are you traveling to a new city and want to visit top
@@ -97,14 +114,16 @@
                 <li class="padding-16">3rd Party API Integrations, HTML, CSS, jQuery</li>
                 <li class="padding-16">
                   <a
+                    class="github-link"
                     href="https://github.com/patriots123/Eat-Drink-Do-Tourist-App"
                     target="_blank"
                     >GitHub Repo</a
                   >
                 </li>
-                <li class="light-grey padding-24">
+                <li class="light-grey padding-16">
                     <button class="button white padding-large">
-                      <a 
+                      <a
+                        class="try-link" 
                         href="https://eat-drink-do.herokuapp.com/index.html" 
                         target="_blank"
                         >Try it out!</a>
@@ -114,7 +133,7 @@
             </div>
             <div class="margin-bottom payment-tracker-block">
               <ul class="ul white center opacity hover-opacity-off">
-                <li class="black xlarge padding-32">Payment Tracker</li>
+                <li class="black xlarge padding-24">Payment Tracker</li>
                 <li class="padding-16">
                   <p>
                     Are you tracking your regular scheduled payments in some
@@ -129,14 +148,16 @@
                 <li class="padding-16">MongoDB, EJS, Node.js, Passport.js, HTML, Materialize CSS</li>
                 <li class="padding-16">
                   <a
+                    class="github-link"
                     href="https://github.com/patriots123/node-capstone"
                     target="_blank"
                     >GitHub Repo</a
                   >
                 </li>
-                <li class="light-grey padding-24">
+                <li class="light-grey padding-16">
                     <button class="button white padding-large">
                       <a 
+                        class="try-link" 
                         href="https://payment-tracking-app.herokuapp.com/" 
                         target="_blank"
                         >Try it out!</a>
@@ -146,7 +167,7 @@
             </div>
             <div class="margin-bottom golf-score-tracker-block">
               <ul class="ul white center opacity hover-opacity-off">
-                <li class="black xlarge padding-32">Golf Score Tracker</li>
+                <li class="black xlarge padding-24">Golf Score Tracker</li>
                 <li class="padding-16">
                   <p>
                     If you are an avid golfer like myself, but also someone who
@@ -163,14 +184,16 @@
                 <li class="padding-16">Firebase, React, HTML, CSS</li>
                 <li class="padding-16">
                   <a
+                    class="github-link"
                     href="https://github.com/patriots123/react-capstone"
                     target="_blank"
                     >GitHub Repo</a
                   >
                 </li>
-                <li class="light-grey padding-24">
+                <li class="light-grey padding-16">
                   <button class="button white padding-large">
-                    <a 
+                    <a
+                      class="try-link" 
                       href="https://golf-score-tracker-app.herokuapp.com/" 
                       target="_blank"
                       >Try it out!</a>
@@ -180,7 +203,6 @@
             </div>
           </div>
         </div>
-      </div>
       <!-- Contact section -->
       <div class="container light-grey padding-32 padding-large" id="contact">
         <div class="content contact-info" style="max-width:600px">
