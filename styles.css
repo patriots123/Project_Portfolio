@@ -117,7 +117,6 @@ section {
 .eat-drink-do-block {
   background: url(https://media.timeout.com/images/105287032/image.jpg)
     no-repeat center center fixed;
-  /* opacity: 0.5; */
 }
 
 .payment-tracker-block {
@@ -544,7 +543,7 @@ section {
 }
 
 .margin-bottom {
-    margin-bottom: 16px !important;
+    margin-bottom: 40px !important;
 }
 
 .hoverable tbody tr:hover,
