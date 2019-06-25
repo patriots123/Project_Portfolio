@@ -114,6 +114,11 @@ section {
   display: block;
 }
 
+.title {
+  padding: 8px 16px;
+  border-bottom: 1px solid #ddd;
+}
+
 .eat-drink-do-block {
   background: url(https://media.timeout.com/images/105287032/image.jpg)
     no-repeat center center fixed;
