@@ -1,3 +1,3 @@
 # Project Portfolio Website
 
-[Link to Website](wshaughnessy.com)
+[Link to Website](http://www.wshaughnessy.com/index.html)
